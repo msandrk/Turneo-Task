@@ -15,7 +15,7 @@ The API returns the following attributes:
 * `convertedPrice` - price in requested currency
 
 ### API Setup
-Easiest way to setup the API is to build a [Docker](https://www.docker.com/) image from the `Dockerfile` present in this repo.
+Easiest way to setup the API is to build a [Docker](https://www.docker.com/) image from the `Dockerfile` present in this repo. After cloning the repository, please make sure to create and fill out a `.env` file with the keys present in `.env.example` file in this repository and corresponding values. Although usually highly discouraged, I have decided to share the API key for a exchange rates API with you directly through `.env.example` in this repository so you don't have to register for this API yourselves.
 
 To do so run:
 ```bash
