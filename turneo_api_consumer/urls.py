@@ -19,6 +19,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path("currency-converter", include("currency_converter.urls")),
+    path("api/v1/currency-converter", include("currency_converter.urls")),
     path("admin/", admin.site.urls),
 ]
